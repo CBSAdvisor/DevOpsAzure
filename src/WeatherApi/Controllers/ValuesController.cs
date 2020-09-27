@@ -16,7 +16,7 @@ namespace WeatherApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult<string> Get()
+        public ActionResult<string> Get(int id)
         {
             return "asd";
         }

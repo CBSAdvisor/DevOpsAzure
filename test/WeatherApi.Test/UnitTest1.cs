@@ -16,7 +16,7 @@ namespace WeatherApi.Test
         [Fact]
         public void GetReturnsCorrectNumber()
         {
-            var returnValue = controller.Get();
+            var returnValue = controller.Get(1);
             Assert.Equal("asd", returnValue.Value);
         }
     }
