@@ -14,6 +14,12 @@ variables:
 
 steps:
 
+- task: UseDotNet@2
+  displayName: 'Use dotnet sdk 3.x'
+  inputs:
+    version: 3.x
+    includePreviewVersions: true
+
 - task: DotNetCoreCLI@2
   inputs:
     command: test
@@ -28,7 +34,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'src/WeatherApi/WeatherAPI.csproj'
+    projects: 'src/WeatherApi/WeatherApi.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
