@@ -2,7 +2,7 @@ using System;
 using WeatherApi.Controllers;
 using Xunit;
 
-namespace WeatherApi.Tests
+namespace WeatherApi.Test
 {
     public class UnitTest1
     {

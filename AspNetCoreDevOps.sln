@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "src\WeatherAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{155E6FAE-8381-44E3-9999-C09F75E4C02B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Test", "test\WeatherApi.Tests\WeatherApi.Test.csproj", "{2F30A21B-4CD2-445E-AD53-4931A058C19C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Test", "test\WeatherApi.Test\WeatherApi.Test.csproj", "{2F30A21B-4CD2-445E-AD53-4931A058C19C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
